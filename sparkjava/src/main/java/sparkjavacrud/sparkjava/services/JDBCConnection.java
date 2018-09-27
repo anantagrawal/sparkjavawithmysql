@@ -10,7 +10,7 @@ public class JDBCConnection {
 		try {
 		 String connectionURL = "jdbc:mysql://localhost:3306/product";
 		 Class.forName("com.mysql.jdbc.Driver").newInstance();
-		 connection = DriverManager.getConnection(connectionURL, "root", "Anant23!!!");
+		 connection = DriverManager.getConnection(connectionURL, "root", "pwd"); //replace pwd with mysql password
 		} catch (Exception e) {
 			
 		}
